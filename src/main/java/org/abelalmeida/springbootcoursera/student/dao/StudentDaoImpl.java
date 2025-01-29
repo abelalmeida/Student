@@ -1,7 +1,10 @@
 package org.abelalmeida.springbootcoursera.student.dao;
 
 import org.abelalmeida.springbootcoursera.student.core.Student;
+import javax.inject.Named;
 import java.util.*;
+
+@Named(value = "studentDao")
 public class StudentDaoImpl implements StudentDao {
 
     private Map<Long, Student> students; {
