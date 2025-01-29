@@ -17,4 +17,8 @@ public class StudentDaoImpl implements StudentDao {
     public Student getOneStudent(long id) {
         return students.get(id);
     }
+
+    public Collection<Student> getAllStudents() {
+        return students.values();
+    }
 }
