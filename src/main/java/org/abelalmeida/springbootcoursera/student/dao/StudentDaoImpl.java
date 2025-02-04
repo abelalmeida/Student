@@ -11,7 +11,7 @@ public class StudentDaoImpl implements StudentDao {
         students = new HashMap<>();
 
         students.put(1L, new Student(1L, "John", "Doe", "Computer Science", 1200.0));
-        students.put(2L, new Student(2L, "Jane", "Doe", "Mathematics", 1000.0));
+        students.put(2L, new Student(2L, "Jane", "Doe", "English Literature", 1000.0));
         students.put(3L, new Student(3L, "James", "Doe", "Physics", 800.0));
     };
 
@@ -21,7 +21,7 @@ public class StudentDaoImpl implements StudentDao {
         return students.get(id);
     }
 
-    public Collection<Student> getAllStudents() {
+    public Collection<Student> getAll() {
         return students.values();
     }
 }

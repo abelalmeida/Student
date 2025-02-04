@@ -19,3 +19,14 @@ We have successfully got a bin out of the application context, the JUnit is gree
 This controls how we pull down: Added to Selection. Press [CTRL + S] to save as a note
 
 ## Lab4 was for Wiring up solution to use Javax annotations only
+
+
+
+###Lab 5 SPEL and EL
+Utilize Expressions in Spring Configurations by either Expression Language for literal injection or Spring Expression Language (SPEL) for a more dynamic installation. Provide Conditionals for selective inclusion of beans in a configuration.
+Learning Objectives
+Use property files for configuration data and use it for Expressions used with @Value
+Define Spring Provided Managed Beans
+Use Spring Expression Language (SPEL) for power expressions used with @Value
+Understand the need for Conditional beans in development
+Use Pre defined Conditionals from Spring Boot in your applications

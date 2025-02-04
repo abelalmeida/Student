@@ -6,6 +6,6 @@ import java.util.Collection;
 
 public interface StudentDao {
     Student getOneStudent(long id);
-    Collection<Student> getAllStudents();
+    Collection<Student> getAll();
 
 }
